@@ -205,9 +205,6 @@ function WelcomeScreen({ onGetStarted, onSignIn }: { onGetStarted: () => void; o
               }}
             />
           </div>
-          <h2 className="text-white text-5xl font-serif tracking-tight">
-            YDSKazan
-          </h2>
         </motion.div>
 
         {/* Buttons Container */}
