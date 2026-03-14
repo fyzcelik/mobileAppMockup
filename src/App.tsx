@@ -196,7 +196,7 @@ function WelcomeScreen({ onGetStarted, onSignIn }: { onGetStarted: () => void; o
         >
           <div className="mb-4">
             <img
-              src="/logo_welcome.png"
+              src="/image.png"
               alt="YDSKazan Logo"
               className="w-56 h-auto drop-shadow-2xl"
               referrerPolicy="no-referrer"
@@ -499,7 +499,7 @@ function PersonalInfoScreen({ onNext }: { onNext: () => void }) {
     >
       <div className="flex justify-center mb-8">
         <img
-          src="/logo_onboarding.png"
+          src="/image_2.png"
           alt="Logo"
           className="w-32 h-auto"
           referrerPolicy="no-referrer"
@@ -595,8 +595,7 @@ function AvatarSelectionScreen({ onNext }: { onNext: () => void }) {
     "/avatar_3.png",
     "/avatar_4.png",
     "/avatar_5.png",
-    "/avatar_6.png",
-    "/avatar_7.png",
+    "/avatar_6.png"
   ];
 
   return (
